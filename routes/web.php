@@ -10,3 +10,4 @@ Route::post('/autenticar/login', [App\Http\Controllers\AutenticarController::cla
 Route::get('/autenticar/logout', [App\Http\Controllers\AutenticarController::class, 'logout']);
 Route::get('/principal', [App\Http\Controllers\PrincipalController::class, 'index']);
 Route::get('/inventario', [App\Http\Controllers\InventarioController::class, 'index']);
+Route::get('/inventario/exportar/excel', [App\Http\Controllers\InventarioController::class, 'exportarExcel']);

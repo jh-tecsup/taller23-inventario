@@ -4,7 +4,7 @@
 <div class="row mt-4">
 	<h3>Ventas</h3>
 	<div class="text-end">
-		<a class="btn btn-success" href="#">
+		<a class="btn btn-success" href="/inventario/exportar/excel">
             <i class="bi bi-file-earmark-excel-fill"></i> Descargar
         </a>
         <a class="btn btn-primary" href="#">
